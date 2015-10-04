@@ -1,0 +1,24 @@
+//==========================PAGE INTRO========================//
+
+.page-intro {
+  overflow: hidden;
+  h1, h2{
+    text-align: center;
+    font-family: $fancy; }
+   h1{
+      font-size: 3.5em !important;
+      text-align: center; 
+    }
+  p{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px 40px;    
+  }
+  iframe {
+    margin: 20px;
+    padding: 20px;
+  }
+ }
+
+
+

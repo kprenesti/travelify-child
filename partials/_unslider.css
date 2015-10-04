@@ -1,0 +1,14 @@
+/* line 3, C:/wamp/www/AlphaJTravel/wordpress/wp-content/themes/travelify-child/partials/_unslider.scss */
+.banner {
+  position: relative;
+  overflow: auto; }
+
+/* line 4, C:/wamp/www/AlphaJTravel/wordpress/wp-content/themes/travelify-child/partials/_unslider.scss */
+.banner li {
+  list-style: none; }
+
+/* line 5, C:/wamp/www/AlphaJTravel/wordpress/wp-content/themes/travelify-child/partials/_unslider.scss */
+.banner ul li {
+  float: left; }
+
+/*# sourceMappingURL=_unslider.css.map */

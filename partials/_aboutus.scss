@@ -1,0 +1,144 @@
+.full-page {
+  width: 100%;
+  h2 {
+    font-family: $fancy;
+    color: white;
+    width: 100%;
+    background-color: $dark-blue;
+    text-align: center;
+  }
+}
+
+.starter {
+  margin-bottom: 20px;
+  overflow: hidden;
+  .sidepic {
+    width: 20%;
+    margin-right: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 1.5em;
+  }
+}
+
+.services-list {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0 auto;
+  .service {
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .service-info {
+      width: 100%;
+      height: 100%;
+      background-color: $tran-blue;
+      color: white;
+      position: relative;
+      top: -35px;
+      text-align: center;
+      h3 {
+        color: white;
+        font-family: $fancy;
+        font-size: 1.2em;
+        line-height: 35px;
+      }
+      p {
+        padding: 10px;
+        color: white;
+      }
+      h4, h5 {
+        font-size: 1.2em;
+        color: white;
+      }
+    }
+  }
+}
+
+.service:hover > .service-info {
+  top: -200px;
+  h3 {
+    padding-top: 10px;
+  }
+}
+
+.reasons {
+  padding: 20px;
+  p {
+    font-size: 1.2em;
+  }
+  h4 {
+    color: $dark-blue;
+  }
+}
+
+.creds {
+  padding: 20px;
+  margin-top: 10px;
+   ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    li {
+      font-size: 1.8em;
+      line-height: 1.2em;
+    }
+  }
+}
+.creds:first-of-type {
+  border-right: solid 1px $dark-blue;
+}
+.assocred-wrap {
+  width: 48%;
+  margin: 0;
+  padding: 0;
+  h4 {
+    font-weight: bold;
+    color: $dark-blue;
+    font-size: 2.2em;
+    padding-bottom: 10px;
+  }
+  h3 {
+    width: 150px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    background: $dark-blue;
+  }
+}
+.assoc {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 10px;
+  ul {
+    list-style-position: inside;
+    list-style-type: none;
+    overflow: hidden;
+    li {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      &:after {
+        content: '';
+        clear: both;
+      }
+      img {
+        width: 150px;
+        height: 75px;
+      }
+    }
+  }
+}
