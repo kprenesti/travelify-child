@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "_unslider.css",
+  "sources": [
+    "_unslider.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAEA,OAAO,CAAC;EAAE,QAAQ,EAAE,QAAS;EAAE,QAAQ,EAAE,IAAK,GAArC;;;AACG,OAAO,CAAC,EAAE,CAAP;EAAE,UAAU,EAAE,IAAK,GAAlB;;;AACG,OAAO,CAAC,EAAE,CAAC,EAAE,CAAV;EAAE,KAAK,EAAE,IAAK,GAAb",
+  "names": []
+}

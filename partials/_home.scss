@@ -1,0 +1,75 @@
+.home-intro {
+  //background-color: $dark-blue;
+  h1 {
+    color: $dark-blue;
+    font-size: 120%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  h3 {
+    color: $dark-blue;
+    text-align: center;
+  }
+}
+
+.offers {
+  padding-bottom: 40px;
+  overflow: hidden;
+  h2 {
+    background-color: $dark-blue;
+    padding: 10px;
+    text-align: center;
+    font-family: $fancy;
+    font-size:2.5em;
+    color: white;
+  }
+}
+
+.blog-style {
+  margin-top: 30px;
+  width: 400px;
+  background-color: $light-grey;
+  border: 1px solid $grey;
+  padding: 15px;
+  overflow: hidden;
+  h3 {
+    text-align: center;
+    font-family: $fancy;
+    &:first-child {
+      color: $dark-blue;
+    }
+  }
+  a > img {
+    width: 100%;
+  }
+}
+
+.connect {
+  margin-top: 30px;
+  h3 {
+    padding: 10px;
+  }
+}
+
+.readmore {
+  display: block;
+  max-width: 200px;
+  height: 30px;
+  background-color: $dark-blue;
+  color: white;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 1.3em;
+  margin-top: 10px;
+  &:hover {
+    color: $gold;
+  }
+}
+
+.offers .readmore {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}

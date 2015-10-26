@@ -1,0 +1,71 @@
+//===================== RIGHT SIDEBAR ==================//
+
+.right-sidebar {
+  max-width: 25%;
+  //margin-top: 90px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.widget ul li {
+  font-size: 100%;
+}
+
+.widgettitle, .widget-title {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+
+//======================SPECIFIC WIDGETS===============//
+#sgr-custom-taxonomies-menu-3 .children li{
+  height: 2em;
+}
+
+.sgr-custom-taxonomies-menu > ul {
+  margin-bottom: 15px;
+}
+
+.dpe-flexible-posts .entry-content img, .comment-content img, .widget img {
+  float: left;
+  width: 40%;
+  margin-right: 10px;
+  &:after {
+    content: '';
+    clear: both;
+  }
+}
+
+.ssrp.widget ul li,
+.widget.widget_dpe_fp_widget ul li {
+  font-size: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+li.destinations {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+//======================COMMENTS=======================//
+.comments {
+  @extend .wrap-left;
+  width: 100%;
+}
+#comment {
+  background-color: white;
+}
+
+
+
+
+//=======================SLIDER========================//
+.sp-slides-container {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}

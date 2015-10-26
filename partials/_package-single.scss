@@ -1,0 +1,62 @@
+//============== SINGLE PACKAGE =============//
+
+.intro {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: $dark-blue;
+  overflow: auto;
+  h1 {
+    text-align: center;
+    font-family: $fancy;
+    color: white;
+    font-size: 3em;
+    margin: 0.67em 0 0px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+}
+
+.pic-desc-wrap {
+  width: 100%;
+  overflow: hidden;
+  .feat-img.floater {
+    width: 100%;
+    margin: 0;
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+  }
+  .description.rightF {
+    max-width: 100%;
+    padding: 20px 0;
+    p{
+    font-size: 1.2em;
+    }
+  }
+}
+
+.itinerary {
+  h2 {
+    text-align: center;
+  }
+  h4 {
+    font-size: 185%;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}
+
+.includes ul {
+  list-style-type: disc !important;
+  list-style-position: inside;
+  font-size: 1.2em;
+}
